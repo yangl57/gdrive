@@ -836,7 +836,7 @@ func main() {
 		},
 		&cli.Handler{
 			Pattern:     "help",
-			Description: "Print help",
+			Description: "Print help!",
 			Callback:    printHelp,
 		},
 		&cli.Handler{
